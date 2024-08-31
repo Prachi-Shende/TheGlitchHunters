@@ -1,0 +1,164 @@
+<!-- <div class="MacbookPro169" style="width: 1728px; height: 1117px; padding-top: 4px; background: white; justify-content: center; align-items: center; display: inline-flex">
+    <div class="MacbookPro163" style="width: 1728px; height: 1113px; position: relative; background: white; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+      <div class="Rectangle9" style="width: 1728px; height: 187px; background: #001F3D; box-shadow: 20.600000381469727px 20.600000381469727px 20.600000381469727px; filter: blur(20.60px); backdrop-filter: blur(24px)"></div>
+      <div class="MacbookPro168" style="width: 1728px; height: 1117px; position: relative; background: white">
+        <div class="Arrow10" style="width: 110px; height: 0px; left: 365px; top: 72px; position: absolute; background: #D9D9D9; border: 23px white solid"></div>
+        <div class="Rectangle62" style="width: 153px; height: 91px; left: 343px; top: 26px; position: absolute; background: #D9D9D9"></div>
+      </div>
+      <img class="Image" style="width: 301px; height: 185px" src="v35_179.png" />
+      <div class="SecurityCamView" style="width: 1002px; height: 117px; text-align: center; color: rgba(255, 255, 255, 0.78); font-size: 64px; font-family: Inter; font-weight: 700; word-wrap: break-word">SECURITY CAM VIEW</div>
+      <div class="GenericAvatar" style="width: 145px; height: 107px; padding-top: 26.75px; padding-bottom: 11.68px; padding-left: 21.42px; padding-right: 21.42px; background: #EADDFF; border-radius: 100px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+        <div class="AvatarPlaceholder" style="width: 102.17px; height: 68.57px; background: #21005D"></div>
+      </div>
+      <img class="Image" style="width: 1728px; height: 930px" src="v57_703.png" />
+      <div class="Rectangle13" style="width: 705px; height: 112px; background: #9AA0A6; box-shadow: 14px 14px 4px #49454F; border-radius: 30px"></div>
+      <div class="LiveFeed" style="width: 629px; height: 59px; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">LIVE FEED</div>
+      <div class="Rectangle12" style="width: 705px; height: 111px; background: #9AA0A6; box-shadow: 14px 14px 4px #49454F; border-radius: 30px"></div>
+      <div class="SavedVideos" style="width: 637px; height: 74px; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">SAVED VIDEOS</div>
+      <div class="Rectangle14" style="width: 705px; height: 112px; background: #9AA0A6; box-shadow: 14px 14px 4px #49454F; border-radius: 30px"></div>
+      <div class="AnalyticsDashboard" style="width: 643px; height: 80px; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">ANALYTICS DASHBOARD</div>
+      <div class="Rectangle17" style="width: 705px; height: 106px; background: #9AA0A6; box-shadow: 14px 14px 4px #49454F; border-radius: 30px"></div>
+      <div class="AlertMessages" style="width: 626px; height: 64px; text-align: center; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">ALERT MESSAGES</div>
+      <div class="Ellipse3" style="width: 240px; height: 194px; background: #E61010; border-radius: 9999px; border: 12px black solid"></div>
+      <div class="Bell" style="width: 77px; height: 64px; padding-top: 5.33px; padding-bottom: 5.34px; padding-left: 9.62px; padding-right: 9.62px; background: #E81313; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Icon" style="width: 57.75px; height: 53.32px; border: 4px #1E1E1E solid"></div>
+      </div>
+      <div class="EmergencyResponse" style="width: 159px; height: 20px; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">Emergency response</div>
+      <div class="Rectangle15" style="width: 705px; height: 112px; background: #9AA0A6; box-shadow: 14px 14px 4px #49454F; border-radius: 30px"></div>
+      <div class="Settings" style="width: 622px; height: 63px; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">SETTINGS</div>
+    </div>
+  </div>
+ -->
+  
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Security Dashboard</title>
+     <style>
+         .dashboard-container {
+             width: 1728px;
+             height: 1117px;
+             position: relative;
+             background: white;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+ 
+         .top-image-container {
+             width: 100%;
+             height: 187px;
+             background: #001F3D;
+             box-shadow: 20.6px 20.6px 20.6px rgba(0, 0, 0, 0.25);
+             filter: blur(20.6px);
+             backdrop-filter: blur(24px);
+             position: relative;
+         }
+ 
+         .top-image {
+             width: 301px;
+             height: 185px;
+             position: absolute;
+             top: -50px;
+             left: 50%;
+             transform: translateX(-50%);
+         }
+ 
+         .main-image-container {
+             width: 100%;
+             height: 930px;
+             position: relative;
+         }
+ 
+         .main-image {
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+             position: absolute;
+             top: 0;
+             left: 0;
+             z-index: 1;
+         }
+ 
+         .text-container {
+             position: absolute;
+             right: 100px;
+             top: 50%;
+             transform: translateY(-50%);
+             z-index: 2;
+             display: flex;
+             flex-direction: column;
+             align-items: flex-end;
+         }
+ 
+         .text-box {
+             width: 705px;
+             height: 112px;
+             background: #9AA0A6;
+             box-shadow: 14px 14px 4px rgba(73, 69, 79, 0.7);
+             border-radius: 30px;
+             margin-bottom: 20px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             font-size: 48px;
+             font-family: Inter, sans-serif;
+             color: black;
+         }
+ 
+         .ellipse {
+             width: 240px;
+             height: 194px;
+             background: #E61010;
+             border-radius: 9999px;
+             border: 12px black solid;
+             position: absolute;
+             top: 850px;
+             right: 30px;
+             z-index: 3;
+         }
+ 
+         .bell-icon {
+             width: 77px;
+             height: 64px;
+             padding: 5.33px;
+             background: #E81313;
+             border: 4px #1E1E1E solid;
+             position: absolute;
+             top: 900px;
+             right: 50px;
+             z-index: 4;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="dashboard-container">
+         <!-- Top Image Section -->
+         <div class="top-image-container">
+             <img class="top-image" src="v35_179.png" alt="Top Image">
+         </div>
+ 
+         <!-- Main Image Section -->
+         <div class="main-image-container">
+             <img class="main-image" src="v57_703.png" alt="Main Background Image">
+ 
+             <!-- Text Overlay on Main Image -->
+             <div class="text-container">
+                 <div class="text-box">LIVE FEED</div>
+                 <div class="text-box">SAVED VIDEOS</div>
+                 <div class="text-box">ANALYTICS DASHBOARD</div>
+                 <div class="text-box">ALERT MESSAGES</div>
+                 <div class="text-box">SETTINGS</div>
+             </div>
+         </div>
+ 
+         <!-- Ellipse and Bell Icon -->
+         <div class="ellipse"></div>
+         <div class="bell-icon"></div>
+     </div>
+ </body>
+ </html>
+ 
